@@ -21,3 +21,6 @@ const verifyToken = async (userToken,userSecretKey)=>{
     console.log(result);
     
 }
+
+hashingFunction('')
+// comparePass('Juantwothree','$2b$10$EMbMjGAIGdKxkDVYMPnXr.3rcKO.39dLMc4aq6gue9EZHFDaQq7bi')

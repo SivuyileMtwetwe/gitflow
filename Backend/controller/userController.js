@@ -1,6 +1,6 @@
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
-import User from '../model/userModel.js'; // Assuming you have a User model for DB interactions
+import User from '../model/userModel.js'; 
 
 // Hash password
 const hashingFunction = async (pwd) => {

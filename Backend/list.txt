@@ -1,0 +1,15 @@
+get.products
+get.cart
+
+
+tables:
+    users - user_id (pk auto_increment not null),email (not null),password (not null)
+
+    products- product_id (pk auto_increment not null) ,price,description,title,rating
+
+    order - order_id(pk auto_increment not null),customize_id(fk), quantity(not null),user_id(fk)
+
+    whishlist - whish_id(pk auto_increment not null),customize_id(fk), user_id(fk)
+
+    customize - customize_id(pk auto_increment not null),price(not null),description(),title,color(not_null),extra1(nullable),extra2(nullable)
+
